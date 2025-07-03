@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>La Plateforme</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link rel="stylesheet" href="laplateforme.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="accueil.html">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <a href="qui-sommes-nous.html">Qui sommes-nous</a>
+            <a href="ai-school.html">Ai School</a>
+            <a href="cyber-security-school.html">Cyber Security School</a>
+            <a href="coding-school.html">Coding School</a>
+            <a href="innovation-lab.html">Digital Lab</a>
+            <a href="executive-education.html">Executive Education</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-contact" aria-label="Contact">
+            <h2>Besoin d’un renseignement sur nos cursus, notre accompagnement entreprises, nos projets et actions ?
+                <span class="text-blue">Contactez-nous.</span></h2>
+            <div class="hero-image-contact">
+                <img src="images/hero.webp" alt="Personnes en formation numérique sur ordinateur" />
+            </div>
+
+            <div class="hero-form">
+                <h2>La Plateforme / Contact</h2>
+                <form action="traitement.php" method="post">
+                    <div class="form-group">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" required placeholder="Votre Nom">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required placeholder="Votre adresse email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Votre message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Envoyer</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h2>Une autre question ?</h2>
+                <p>Nous sommes aussi joignable par :</p><br>
+                <ul>
+                    <li>- Email : <a href="mailto:contact@laplateforme.io">contact@laplateforme.io</a></li>
+                    <li>- Téléphone : 04.84.89.43.69, du lundi au vendredi de 9h à 17h</li>
+                    <li>- Sur les réseaux sociaux :
+                        <span class="social-icons">
+                            <a href="https://www.facebook.com/laplateforme" target="_blank" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com/laplateforme" target="_blank" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/laplateforme" target="_blank"
+                                aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/laplateforme" target="_blank" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <ul>
+                    <li>8 rue d’hozier, 13002 Marseille</li>
+                    <li>04.84.89.43.69</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Formations</h4>
+                <ul>
+                    <li><a href="ai-school.html">AI School</a></li>
+                    <li><a href="cyber-security-school.html">Cyber Security School</a></li>
+                    <li><a href="coding-school.html">Coding School</a></li>
+                    <li><a href="executive-education.html">Executive Education</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>À propos</h4>
+                <ul>
+                    <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Suivez-nous</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/LaPlateformeIO" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/school/laplateformeio/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://x.com/LaPlateformeIO" target="_blank">X</a></li>
+                    <li><a href="https://www.instagram.com/LaPlateformeIO/" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
